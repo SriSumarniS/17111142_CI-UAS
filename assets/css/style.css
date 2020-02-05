@@ -1,0 +1,75 @@
+
+.up {
+	background-color: #FAFAD2;
+	
+}
+
+h3{
+	font-family: Indie Flower;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Navbar*/
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+
+/*Utility*/
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+
+#home .top .container .atas {
+	background-color: #f9f8f8;
+	margin-top: -85px;
+	padding-bottom: 37px;
+}
+
+h1{
+	text-align: center;
+}
+
+.container .bawah {
+	align-content: center;
+}
+
+.sticky-footer{
+	background-color: #E6E6FA;
+}
+
+
+/*#about {
+	background-color: #102128;
+}*/
+
+
+
+/*DESKTOP VERSION*/
+@media (min-width: 992px) {
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid #0B63DC;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+}
